@@ -14,7 +14,7 @@ spec:
  spec:
  containers:
  - name: php-webapp
- image: ghcr.io/YanardRognuh/myphp-app/myphp-app:latest
+ image: ghcr.io/YanardRognuh/pipeline-ci-cd-sederhana/myphp-app:latest
 # ganti student1-inix USERNAME anda, Ganti myphp-app repo anda.
  ports:
  - containerPort: 80
@@ -31,4 +31,5 @@ spec:
  app: php-webapp
  ports:
  - port: 80
+
  targetPort: 80
